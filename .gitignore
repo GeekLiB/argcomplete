@@ -1,0 +1,23 @@
+# Reminder:
+# - A leading slash means the pattern is anchored at the root.
+# - No leading slash means the pattern matches at any depth.
+
+*.pyc
+__pycache__/
+.tox/
+*.egg-info/
+/build/
+/dist/
+/.pydevproject
+
+# Sphinx documentation
+/docs/_build/
+
+/.pydevproject
+
+# vim python-mode plugin
+/.ropeproject
+
+# IntelliJ IDEA / PyCharm project files
+/.idea
+/*.iml
